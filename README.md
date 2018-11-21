@@ -30,6 +30,6 @@ and then
 npm install
 npm start
 ```
-The server will run in `http://localhost:8000/api`
+The server will run in `http://localhost:8000`
 
 Now, use PostMan to make request to API.

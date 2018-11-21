@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var Product = require('./app/models/product');
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://leandrocarra:danega01@ds029267.mlab.com:29267/alfcrud', {
+mongoose.connect('mongodb://user:pass@ds029267.mlab.com:29267/nameDb', {
     useMongoClient: true
 });
 
